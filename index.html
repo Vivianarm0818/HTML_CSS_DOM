@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Empleado del Mes</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <h1>Empleado del Mes 🎉🧸</h1>
+
+  <div>
+    <h2>Juana</h2>
+    <p>Ingrese la cantidad vendida de cada uno de los perfumes:</p>
+    <label for="cantidad-aqua">Cantidad Aqua:</label>
+    <input type="number" min="1" id="1cantidad-aqua">
+ 
+    <label for="cantidad-emocion">Cantidad Emoción:</label>
+    <input type="number" min="1" id="1cantidad-emocion">
+ 
+    <label for="cantidad-alegria">Cantidad Alegría:</label>
+    <input type="number" min="1" id="1cantidad-alegria">
+ 
+    <label for="cantidad-frescura">Cantidad Frescura:</label>
+    <input type="number" min="1" id="1cantidad-frescura">
+  </div>
+
+  <div>
+    <h2>Pedro</h2>
+    <p>Ingrese la cantidad vendida de cada uno de los perfumes:</p>
+    <label for="cantidad-aqua">Cantidad Aqua:</label>
+    <input type="number" min="1" id="2cantidad-aqua">
+ 
+    <label for="cantidad-aqua">Cantidad Emoción:</label>
+    <input type="number" min="1" id="2cantidad-emocion">
+ 
+    <label for="cantidad-aqua">Cantidad Alegría:</label>
+    <input type="number" min="1" id="2cantidad-alegria">
+ 
+    <label for="cantidad-aqua">Cantidad Frescura:</label>
+    <input type="number" min="1" id="2cantidad-frescura">
+  </div>
+
+  <button onclick="calcularVentas()">Calcular las Ventas</button>
+
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
